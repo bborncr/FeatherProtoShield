@@ -1,0 +1,2131 @@
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+
+  (general
+    (thickness 1.6)
+    (drawings 105)
+    (tracks 42)
+    (zones 0)
+    (modules 168)
+    (nets 1)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.5)
+    (user_trace_width 0.5)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.2)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.12)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.778 1.778)
+    (pad_drill 1.016)
+    (pad_to_mask_clearance 0.051)
+    (solder_mask_min_width 0.25)
+    (aux_axis_origin 0 0)
+    (visible_elements FFFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010ec_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory ""))
+  )
+
+  (net 0 "")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.25)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class signal ""
+    (clearance 0.2)
+    (trace_width 0.5)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B88)
+    (at 205.74 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B80)
+    (at 205.74 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B78)
+    (at 205.74 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B70)
+    (at 205.74 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B68)
+    (at 203.2 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B60)
+    (at 203.2 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B58)
+    (at 203.2 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B50)
+    (at 203.2 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B48)
+    (at 203.2 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B40)
+    (at 203.2 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B38)
+    (at 200.66 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B30)
+    (at 200.66 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B28)
+    (at 200.66 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B20)
+    (at 200.66 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B18)
+    (at 200.66 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B10)
+    (at 200.66 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B08)
+    (at 198.12 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10B00)
+    (at 198.12 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AF8)
+    (at 198.12 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AF0)
+    (at 198.12 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AE8)
+    (at 198.12 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AE0)
+    (at 198.12 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AD8)
+    (at 195.58 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AD0)
+    (at 195.58 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AC8)
+    (at 195.58 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AC0)
+    (at 195.58 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AB8)
+    (at 195.58 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AB0)
+    (at 195.58 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AA8)
+    (at 193.04 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10AA0)
+    (at 193.04 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A98)
+    (at 193.04 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A90)
+    (at 193.04 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A88)
+    (at 193.04 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A80)
+    (at 193.04 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A78)
+    (at 190.5 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A70)
+    (at 190.5 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A68)
+    (at 190.5 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A60)
+    (at 190.5 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A58)
+    (at 190.5 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A50)
+    (at 190.5 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A48)
+    (at 187.96 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A40)
+    (at 187.96 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A38)
+    (at 187.96 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A30)
+    (at 187.96 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A28)
+    (at 187.96 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A20)
+    (at 187.96 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A18)
+    (at 185.42 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A10)
+    (at 185.42 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A08)
+    (at 185.42 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10A00)
+    (at 185.42 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109F8)
+    (at 185.42 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109F0)
+    (at 185.42 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109E8)
+    (at 182.88 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109E0)
+    (at 182.88 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109D8)
+    (at 182.88 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109D0)
+    (at 182.88 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109C8)
+    (at 182.88 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109C0)
+    (at 182.88 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109B8)
+    (at 180.34 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109B0)
+    (at 180.34 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109A8)
+    (at 180.34 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED109A0)
+    (at 180.34 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10998)
+    (at 180.34 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10990)
+    (at 180.34 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10988)
+    (at 177.8 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10980)
+    (at 177.8 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10978)
+    (at 177.8 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10970)
+    (at 177.8 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10968)
+    (at 177.8 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10960)
+    (at 177.8 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10958)
+    (at 175.26 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10950)
+    (at 175.26 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10948)
+    (at 175.26 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10940)
+    (at 175.26 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10938)
+    (at 175.26 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10930)
+    (at 175.26 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10928)
+    (at 172.72 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10920)
+    (at 172.72 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10918)
+    (at 172.72 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10910)
+    (at 172.72 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10908)
+    (at 172.72 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10900)
+    (at 170.18 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108F8)
+    (at 170.18 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108F0)
+    (at 167.64 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108E8)
+    (at 167.64 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108E0)
+    (at 165.1 81.28)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108D8)
+    (at 165.1 78.74)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108D0)
+    (at 170.18 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108C8)
+    (at 170.18 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108C0)
+    (at 170.18 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108B8)
+    (at 172.72 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108B0)
+    (at 170.18 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108A8)
+    (at 167.64 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED108A0)
+    (at 167.64 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10898)
+    (at 167.64 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10890)
+    (at 167.64 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10888)
+    (at 165.1 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10880)
+    (at 165.1 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1084D)
+    (at 165.1 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107FF)
+    (at 165.1 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107F7)
+    (at 162.56 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107EF)
+    (at 162.56 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107E7)
+    (at 162.56 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107DF)
+    (at 162.56 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107D7)
+    (at 160.02 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107CF)
+    (at 160.02 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107C7)
+    (at 160.02 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107BF)
+    (at 160.02 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107B7)
+    (at 160.02 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107AF)
+    (at 162.56 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED107A7)
+    (at 165.1 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1079F)
+    (at 167.64 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10797)
+    (at 170.18 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1078F)
+    (at 172.72 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10787)
+    (at 175.26 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1077F)
+    (at 177.8 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10777)
+    (at 180.34 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1076F)
+    (at 182.88 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10767)
+    (at 185.42 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1075F)
+    (at 187.96 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10757)
+    (at 190.5 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1074F)
+    (at 193.04 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10747)
+    (at 195.58 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1073F)
+    (at 198.12 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10737)
+    (at 200.66 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1072F)
+    (at 203.2 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10727)
+    (at 205.74 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1071F)
+    (at 208.28 76.2)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10717)
+    (at 208.28 73.66)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1070F)
+    (at 208.28 71.12)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10707)
+    (at 208.28 68.58)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED106FF)
+    (at 208.28 66.04)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED106F7)
+    (at 165.1 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED106EF)
+    (at 165.1 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5ED10651)
+    (at 161.29 80.01)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 2.54 -7.62) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 15.24 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5ED1062A)
+    (at 161.29 62.23)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 2.54 -7.62) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 15.24 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1061B)
+    (at 167.64 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10613)
+    (at 167.64 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1060B)
+    (at 170.18 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10603)
+    (at 172.72 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105FB)
+    (at 175.26 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105F3)
+    (at 177.8 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105EB)
+    (at 180.34 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105E3)
+    (at 182.88 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105DB)
+    (at 185.42 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105D3)
+    (at 187.96 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105CB)
+    (at 190.5 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105C3)
+    (at 193.04 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105BB)
+    (at 195.58 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105B3)
+    (at 198.12 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105AB)
+    (at 200.66 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED105A3)
+    (at 203.2 63.5)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1059B)
+    (at 203.2 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10593)
+    (at 200.66 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1058B)
+    (at 198.12 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10583)
+    (at 195.58 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1057B)
+    (at 193.04 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10573)
+    (at 190.5 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1056B)
+    (at 187.96 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1052C)
+    (at 185.42 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10524)
+    (at 182.88 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED1051C)
+    (at 180.34 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED10514)
+    (at 177.8 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED104F5)
+    (at 175.26 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED104E8)
+    (at 172.72 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module "Custom Libraries:simple_pad" (layer F.Cu) (tedit 5ECFC181) (tstamp 5ED104E2)
+    (at 170.18 60.96)
+    (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value simple_pad (at 0 -3.81) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5ED0E447)
+    (at 207.01 80.01)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at -1.27 8.89) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 56D1B4CB) (tstamp 5ED0E359)
+    (at 207.01 62.23)
+    (descr "Mounting Hole 3.2mm, no annular, M3")
+    (tags "mounting hole 3.2mm no annular m3")
+    (attr virtual)
+    (fp_text reference REF** (at 2.54 -7.62) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3.2mm_M3 (at 15.24 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
+  )
+
+  (gr_line (start 163.83 77.47) (end 166.37 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 166.37 77.47) (end 167.64 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.148 77.47) (end 168.91 76.708) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.91 76.708) (end 168.91 76.2) (layer F.SilkS) (width 0.12) (tstamp 5ECFEDAA))
+  (gr_line (start 167.64 77.47) (end 168.148 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.656 77.724) (end 169.164 77.216) (layer F.SilkS) (width 0.12))
+  (gr_line (start 169.672 77.47) (end 170.18 77.47) (layer F.SilkS) (width 0.12) (tstamp 5ECFEDAB))
+  (gr_line (start 168.91 78.232) (end 169.672 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.91 78.74) (end 168.91 78.232) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.91 59.69) (end 168.91 76.2) (layer F.SilkS) (width 0.12))
+  (gr_line (start 171.45 59.69) (end 168.91 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 171.45 59.69) (end 171.45 77.47) (layer F.SilkS) (width 0.12) (tstamp 5ECFECFE))
+  (gr_line (start 173.99 59.69) (end 171.45 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 173.99 77.47) (end 173.99 64.77) (layer F.SilkS) (width 0.12) (tstamp 5ECFECFD))
+  (gr_arc (start 161.29 80.01) (end 158.75 80.01) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 207.01 80.01) (end 207.01 82.55) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 207.01 62.23) (end 209.55 62.23) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 161.29 62.23) (end 161.29 59.69) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 158.75 62.23) (end 158.75 80.01) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 207.01 59.69) (end 161.29 59.69) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 209.55 80.01) (end 209.55 62.23) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 161.29 82.55) (end 207.01 82.55) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 204.47 82.55) (end 201.93 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1FD))
+  (gr_line (start 204.47 77.47) (end 204.47 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 201.93 77.47) (end 204.47 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 201.93 82.55) (end 199.39 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1FC))
+  (gr_line (start 201.93 77.47) (end 201.93 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 199.39 77.47) (end 201.93 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 199.39 82.55) (end 196.85 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1FB))
+  (gr_line (start 199.39 77.47) (end 199.39 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 196.85 77.47) (end 199.39 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 196.85 82.55) (end 194.31 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1FA))
+  (gr_line (start 196.85 77.47) (end 196.85 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 194.31 77.47) (end 196.85 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 194.31 82.55) (end 191.77 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F9))
+  (gr_line (start 194.31 77.47) (end 194.31 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 191.77 77.47) (end 194.31 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 191.77 82.55) (end 189.23 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F8))
+  (gr_line (start 191.77 77.47) (end 191.77 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 189.23 77.47) (end 191.77 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 189.23 82.55) (end 186.69 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F7))
+  (gr_line (start 189.23 77.47) (end 189.23 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 186.69 77.47) (end 189.23 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 186.69 82.55) (end 184.15 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F6))
+  (gr_line (start 186.69 77.47) (end 186.69 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 77.47) (end 186.69 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 82.55) (end 181.61 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F5))
+  (gr_line (start 184.15 77.47) (end 184.15 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 181.61 77.47) (end 184.15 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 181.61 82.55) (end 179.07 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F4))
+  (gr_line (start 181.61 77.47) (end 181.61 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 179.07 77.47) (end 181.61 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 179.07 82.55) (end 176.53 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F3))
+  (gr_line (start 179.07 77.47) (end 179.07 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 176.53 77.47) (end 179.07 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 176.53 82.55) (end 173.99 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F2))
+  (gr_line (start 176.53 77.47) (end 176.53 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 173.99 77.47) (end 176.53 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 173.99 82.55) (end 171.45 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F1))
+  (gr_line (start 173.99 77.47) (end 173.99 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 171.45 82.55) (end 168.91 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1F0))
+  (gr_line (start 171.45 77.47) (end 171.45 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 170.18 77.47) (end 171.45 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 168.91 82.55) (end 166.37 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1EF))
+  (gr_line (start 168.91 78.74) (end 168.91 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 166.37 82.55) (end 163.83 82.55) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1EE))
+  (gr_line (start 166.37 77.47) (end 166.37 82.55) (layer F.SilkS) (width 0.12))
+  (gr_line (start 163.83 82.55) (end 163.83 77.47) (layer F.SilkS) (width 0.12))
+  (gr_line (start 204.47 59.69) (end 201.93 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1ED))
+  (gr_line (start 204.47 64.77) (end 204.47 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 201.93 64.77) (end 204.47 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 201.93 59.69) (end 199.39 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1EC))
+  (gr_line (start 201.93 64.77) (end 201.93 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 199.39 64.77) (end 201.93 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 199.39 59.69) (end 196.85 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1EB))
+  (gr_line (start 199.39 64.77) (end 199.39 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 196.85 64.77) (end 199.39 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 196.85 59.69) (end 194.31 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1EA))
+  (gr_line (start 196.85 64.77) (end 196.85 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 194.31 64.77) (end 196.85 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 194.31 59.69) (end 191.77 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E9))
+  (gr_line (start 194.31 64.77) (end 194.31 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 191.77 64.77) (end 194.31 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 191.77 59.69) (end 189.23 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E8))
+  (gr_line (start 191.77 64.77) (end 191.77 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 189.23 64.77) (end 191.77 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 189.23 59.69) (end 186.69 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E7))
+  (gr_line (start 189.23 64.77) (end 189.23 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 186.69 64.77) (end 189.23 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 186.69 59.69) (end 184.15 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E6))
+  (gr_line (start 186.69 64.77) (end 186.69 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 64.77) (end 186.69 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 59.69) (end 181.61 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E5))
+  (gr_line (start 184.15 64.77) (end 184.15 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 181.61 64.77) (end 184.15 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 181.61 59.69) (end 179.07 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E4))
+  (gr_line (start 181.61 64.77) (end 181.61 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 179.07 64.77) (end 181.61 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 179.07 59.69) (end 176.53 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E3))
+  (gr_line (start 179.07 64.77) (end 179.07 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 176.53 64.77) (end 179.07 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 176.53 59.69) (end 173.99 59.69) (layer F.SilkS) (width 0.12) (tstamp 5ECFE1E2))
+  (gr_line (start 176.53 64.77) (end 176.53 59.69) (layer F.SilkS) (width 0.12))
+  (gr_line (start 173.99 64.77) (end 176.53 64.77) (layer F.SilkS) (width 0.12))
+  (gr_line (start 173.99 59.69) (end 173.99 64.77) (layer F.SilkS) (width 0.12))
+
+  (segment (start 203.2 81.28) (end 203.2 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 200.66 81.28) (end 200.66 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 198.12 81.28) (end 198.12 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 195.58 81.28) (end 195.58 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 193.04 81.28) (end 193.04 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 190.5 81.28) (end 190.5 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 187.96 81.28) (end 187.96 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 185.42 81.28) (end 185.42 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 182.88 81.28) (end 182.88 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 180.34 81.28) (end 180.34 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 177.8 81.28) (end 177.8 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 175.26 81.28) (end 175.26 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 81.28) (end 172.72 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 81.28) (end 170.18 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 167.64 81.28) (end 167.64 78.74) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 167.64 78.74) (end 170.18 76.2) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 78.74) (end 172.72 76.2) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 76.2) (end 172.72 73.66) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 73.66) (end 172.72 71.12) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 71.12) (end 172.72 68.58) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 68.58) (end 172.72 66.04) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 66.04) (end 172.72 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 172.72 63.5) (end 172.72 60.96) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 76.2) (end 170.18 73.66) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 73.66) (end 170.18 71.12) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 71.12) (end 170.18 68.58) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 68.58) (end 170.18 66.04) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 66.04) (end 170.18 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 170.18 63.5) (end 170.18 60.96) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 203.2 60.96) (end 203.2 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 200.66 60.96) (end 200.66 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 198.12 60.96) (end 198.12 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 195.58 60.96) (end 195.58 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 193.04 60.96) (end 193.04 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 190.5 60.96) (end 190.5 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 187.96 60.96) (end 187.96 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 185.42 60.96) (end 185.42 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 182.88 60.96) (end 182.88 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 180.34 60.96) (end 180.34 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 177.8 60.96) (end 177.8 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 175.26 60.96) (end 175.26 63.5) (width 0.5) (layer B.Cu) (net 0))
+  (segment (start 165.1 78.74) (end 165.1 81.28) (width 0.5) (layer B.Cu) (net 0))
+
+)
